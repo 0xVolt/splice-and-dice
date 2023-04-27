@@ -5,6 +5,9 @@ Modularizing Multi-Source Text Summarization with Transformer-based Deep Learnin
 
 ## TODO
 - Research Abstractive and Extractive Text Summarisation
+- Train various models
+- Incorporate into text summarizer streamlit app
+- Decide app workflow and wireframe
 
 ## Stuff to talk about
 - Using a `requirements.txt` to manage dependencies in Python
