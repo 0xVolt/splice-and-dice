@@ -5,3 +5,10 @@ Modularizing Multi-Source Text Summarization with Transformer-based Deep Learnin
 
 ## TODO
 - Research Abstractive and Extractive Text Summarisation
+
+## Stuff to talk about
+- Using a `requirements.txt` to manage dependencies in Python
+
+## References
+- [`txtai`s Official GitHub Repository](https://github.com/neuml/txtai)
+- [`PyPDF2`s Official GitHub Repository](https://github.com/py-pdf/pypdf)
