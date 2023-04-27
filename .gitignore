@@ -1,5 +1,1 @@
-assets/data/archive.zip
-assets/data/news_summary_more.csv
-assets/data/news_summary.csv
-models/lightning_logs/news_summary/version_0/events.out.tfevents.1682625322.volts-holocron.91181.0
-models/lightning_logs/news_summary/version_0/hparams.yaml
+/assets/
