@@ -4,10 +4,10 @@
 Modularizing Multi-Source Text Summarization with Transformer-based Deep Learning and NLP techniques in a Full-Stack Web Application
 
 ## TODO
-- Research Abstractive and Extractive Text Summarisation
-- Train various models
-- Incorporate into text summarizer streamlit app
-- Decide app workflow and wireframe
+- Set our list of models
+- Import pre-trained transformers
+- Create text summarizer streamlit app
+- Ensure that the user has the option to select which transformer they want to use
 
 ## Stuff to talk about
 - Using a `requirements.txt` to manage dependencies in Python
