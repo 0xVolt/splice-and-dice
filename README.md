@@ -6,7 +6,27 @@ Modularizing Multi-Source Text Summarization with Transformer-based Deep Learnin
 Text summarizer that has two modes: one to input a blob of text and another to input documents. It figures out what model to use for summarization in the backend through evaluation of their respective outputs and displays the optimal summary to the user. 
 
 ## TODO
-- Set our list of models
+- Working with models
+  - Import models
+  - Fine-tune them
+  - Evaluate them on validation and testing sets
+- Create Streamlit application
+  - Inputs
+    - Keywords
+      - Speech recognition
+      - Text input
+        - Take notes from the NES tagging video
+    - Tab for text
+    - Another for PDFs
+    - Both together if possible
+  - Drop-down to select models
+    - Rank them on evaluation metric
+  - Output
+    - Click to copy function
+- Presentation for implementation
+  - Comparative analysis for models
+    - 
+    - Validation loss for each model
 - Import pre-trained transformers for abstractive text summarization given inputs either through keywords or speech
 - Create text summarizer streamlit app
 - Code the 
