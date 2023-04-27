@@ -15,10 +15,10 @@ Modularizing Multi-Source Text Summarization with Transformer-based Deep Learnin
 Text summarizer that has two modes: one to input a blob of text and another to input documents. It figures out what model to use for summarization in the backend through evaluation of their respective outputs and displays the optimal summary to the user. 
 
 ## 1.2. TODO
-- [ ] Working with models
-  - [ ] Import models
-  - [ ] Fine-tune them
-  - [ ] Evaluate them on validation and testing sets
+- [X] Working with T5
+  - [X] Import model
+  - [X] Fine-tune
+  - [X] Evaluate them on testing set
 - [ ] Create Streamlit application
   - [ ] Inputs
     - [ ] Keywords
