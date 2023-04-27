@@ -4,6 +4,8 @@
   - [1.1. Objective of the Project](#11-objective-of-the-project)
   - [1.2. TODO](#12-todo)
   - [1.3. Models we're using](#13-models-were-using)
+  - [Questions to prepare for](#questions-to-prepare-for)
+    - [Training the models](#training-the-models)
   - [1.4. References](#14-references)
 
 
@@ -48,6 +50,18 @@ Text summarizer that has two modes: one to input a blob of text and another to i
 4. Pegasus: Pegasus is a sequence-to-sequence transformer-based model that has been specifically designed for abstractive text summarization. It has achieved state-of-the-art results on several benchmark datasets and can be fine-tuned on the XSum dataset for summarizing research papers.
 
 5. ProphetNet: ProphetNet is another transformer-based model that has been specifically designed for sequence-to-sequence tasks. It has achieved state-of-the-art results on several benchmark datasets and can be fine-tuned on the XSum dataset for summarizing research papers.
+
+## Questions to prepare for
+### Training the models
+1. The training corpora for each model and what their significance is
+2. Why we've implemented a dataset loader class to train-test split
+   1. What does the `encode_plus()` function do?
+   2. What are it's parameters?
+   3. What is the attention mask and what does it signify?
+3. Testing and validation
+   1. What is ROUGE?
+      1. ROUGE-N for number of matching n-grams
+      2. ROUGE-L for LCS
 
 ## 1.4. References
 - [`txtai` Official GitHub Repository](https://github.com/neuml/txtai)
