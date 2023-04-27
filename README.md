@@ -50,5 +50,5 @@ Text summarizer that has two modes: one to input a blob of text and another to i
 5. ProphetNet: ProphetNet is another transformer-based model that has been specifically designed for sequence-to-sequence tasks. It has achieved state-of-the-art results on several benchmark datasets and can be fine-tuned on the XSum dataset for summarizing research papers.
 
 ## 1.4. References
-- [`txtai`s Official GitHub Repository](https://github.com/neuml/txtai)
-- [`PyPDF2`s Official GitHub Repository](https://github.com/py-pdf/pypdf)
+- [`txtai` Official GitHub Repository](https://github.com/neuml/txtai)
+- [`PyPDF2` Official GitHub Repository](https://github.com/py-pdf/pypdf)
