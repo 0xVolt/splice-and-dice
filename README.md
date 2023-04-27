@@ -8,6 +8,9 @@ Modularizing Multi-Source Text Summarization with Transformer-based Deep Learnin
 - Import pre-trained transformers
 - Create text summarizer streamlit app
 - Ensure that the user has the option to select which transformer they want to use
+- Speech recognition system for keywords
+- Connect to database
+- Login System?
 
 ## Stuff to talk about
 - Using a `requirements.txt` to manage dependencies in Python
