@@ -1,11 +1,18 @@
 # Semester VI Minor Project
 
-## Objective of the Project 
+- [Semester VI Minor Project](#semester-vi-minor-project)
+  - [1.1. Objective of the Project](#11-objective-of-the-project)
+  - [1.2. TODO](#12-todo)
+  - [1.3. Models we're using](#13-models-were-using)
+  - [1.4. References](#14-references)
+
+
+## 1.1. Objective of the Project 
 Modularizing Multi-Source Text Summarization with Transformer-based Deep Learning and NLP techniques in a Full-Stack Web Application.
 
 Text summarizer that has two modes: one to input a blob of text and another to input documents. It figures out what model to use for summarization in the backend through evaluation of their respective outputs and displays the optimal summary to the user. 
 
-## TODO
+## 1.2. TODO
 - [ ] Working with models
   - [ ] Import models
   - [ ] Fine-tune them
@@ -31,20 +38,17 @@ Text summarizer that has two modes: one to input a blob of text and another to i
     - [ ] Training loss
     - [ ] Validation loss
 
-## Models we're using
-T5: This model is a transformer-based model that has achieved state-of-the-art results on several NLP tasks, including text summarization. It can be fine-tuned on the XSum dataset for summarizing research papers.
+## 1.3. Models we're using
+1. T5: This model is a transformer-based model that has achieved state-of-the-art results on several NLP tasks, including text summarization. It can be fine-tuned on the XSum dataset for summarizing research papers.
 
-BART: BART is another transformer-based model that can be used for abstractive text summarization. It has achieved state-of-the-art results on several benchmark datasets and can be fine-tuned on the CNN/Daily Mail dataset for summarizing research papers.
+2. BART: BART is another transformer-based model that can be used for abstractive text summarization. It has achieved state-of-the-art results on several benchmark datasets and can be fine-tuned on the CNN/Daily Mail dataset for summarizing research papers.
 
-GPT-2: GPT-2 is a large-scale transformer-based language model that has been pre-trained on a diverse range of text data. It can be fine-tuned on the CNNDM dataset for summarizing research papers.
+3. GPT-2: GPT-2 is a large-scale transformer-based language model that has been pre-trained on a diverse range of text data. It can be fine-tuned on the CNNDM dataset for summarizing research papers.
 
-Pegasus: Pegasus is a sequence-to-sequence transformer-based model that has been specifically designed for abstractive text summarization. It has achieved state-of-the-art results on several benchmark datasets and can be fine-tuned on the XSum dataset for summarizing research papers.
+4. Pegasus: Pegasus is a sequence-to-sequence transformer-based model that has been specifically designed for abstractive text summarization. It has achieved state-of-the-art results on several benchmark datasets and can be fine-tuned on the XSum dataset for summarizing research papers.
 
-ProphetNet: ProphetNet is another transformer-based model that has been specifically designed for sequence-to-sequence tasks. It has achieved state-of-the-art results on several benchmark datasets and can be fine-tuned on the XSum dataset for summarizing research papers.
+5. ProphetNet: ProphetNet is another transformer-based model that has been specifically designed for sequence-to-sequence tasks. It has achieved state-of-the-art results on several benchmark datasets and can be fine-tuned on the XSum dataset for summarizing research papers.
 
-## Stuff to talk about
-- Using a `requirements.txt` to manage dependencies in Python
-
-## References
+## 1.4. References
 - [`txtai`s Official GitHub Repository](https://github.com/neuml/txtai)
 - [`PyPDF2`s Official GitHub Repository](https://github.com/py-pdf/pypdf)
