@@ -1,4 +1,5 @@
 import streamlit as st
+# Extract text from PDFs
 from txtai.pipeline import Summary, Textractor
 from PyPDF2 import PdfReader
 
