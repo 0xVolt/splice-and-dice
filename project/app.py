@@ -14,7 +14,7 @@ def text_summary(text, maxlength=None):
     return result
 
 def extract_text_from_pdf(file_path):
-    # Open the PDF file using PyPDF2
+    # Open the PDF file using the PyPDF2 package
     with open(file_path, "rb") as f:
         reader = PdfReader(f)
         page = reader.pages[0]
